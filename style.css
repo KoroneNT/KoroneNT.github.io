@@ -12,6 +12,19 @@ header {
     border-radius: 30px;
 }
 
+h1 {
+    font-family: "Workbench", sans-serif;
+}
+
+h2 {
+    font-family: "Workbench", sans-serif;
+}
+
+p {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 28px;
+}
+
 nav {
     background-color: rgb(108, 108, 108);
     font-size: 25px;
@@ -129,17 +142,37 @@ nav {
 }
 
 .img-9 {
-    width: 900px;
+    width: 800px;
     height: 700px;
 }
 
 .img-10 {
-    width: 900px;
+    width: 800px;
     height: 700px;
 }
 
 .img-amor {
     display: flex;
+}
+
+.galeria {
+    display: flex;
+    height: 430px;
+}
+
+.galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
 
 footer {
