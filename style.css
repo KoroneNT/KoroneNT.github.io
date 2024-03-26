@@ -12,6 +12,30 @@ header {
     border-radius: 30px;
 }
 
+nav ul {
+    background-color: rgb(50, 47, 47);
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-family: "Inconsolata", monospace;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
 h1 {
     font-family: "Workbench", sans-serif;
 }
